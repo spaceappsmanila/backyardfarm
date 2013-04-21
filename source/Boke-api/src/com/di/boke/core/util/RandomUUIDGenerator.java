@@ -7,7 +7,6 @@ import java.util.logging.Logger;
  * This class generates a random id
  * May edit for future preferences.
  * 
- * @author Andrew Ray Abad
  * @author Dungeon Innovations
  * @since  2013-04-21
  */

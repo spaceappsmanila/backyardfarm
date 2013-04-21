@@ -4,7 +4,6 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * @author Andrew Ray Abad
  * @author Dungeon Innovations
  * @since  2013-04-21
  */

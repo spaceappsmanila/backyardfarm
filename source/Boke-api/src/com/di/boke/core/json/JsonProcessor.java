@@ -11,7 +11,6 @@ import com.google.gson.LongSerializationPolicy;
 /**
  * This class is a utility to convert Objects to and from Json.
  * 
- * @author Andrew Ray Abad
  * @author Dungeon Innovations
  * @since  2013-04-21
  */

@@ -10,7 +10,6 @@ import com.di.boke.core.json.JsonProcessor;
 /**
  * This utility class is used to write the json objects to a file.
  * 
- * @author Andrew Ray Abad
  * @author Dungeon Innovations
  * @since 2013-04-21
  */

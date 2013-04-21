@@ -37,7 +37,6 @@ import com.di.boke.core.util.RandomUUIDGenerator;
 /**
  * This class generates the json equivalent of the models and write it to a file.
  * 
- * @author Andrew Ray Abad
  * @author Dungeon Innovations
  * @since  2013-04-21
  */

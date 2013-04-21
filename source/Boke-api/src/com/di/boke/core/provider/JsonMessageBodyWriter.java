@@ -19,7 +19,6 @@ import com.google.gson.Gson;
 /**
  * This class marshalls the Object to Json
  * 
- * @author Andrew Ray Abad
  * @author Dungeon Innovations
  * @since  2013-04-21
  */
