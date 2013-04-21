@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  >
+  <TextView 
+    android:id="@+id/core_spinner_description_text_view"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_marginTop="@dimen/base_textView_layout_marginTop"
+    android:layout_marginRight="@dimen/base_textView_layout_marginRight"
+    android:layout_marginBottom="@dimen/base_textView_layout_marginBottom"
+    android:layout_marginLeft="@dimen/base_textView_layout_marginLeft"
+    style="@style/fieldSet_value_textView_style"
+    />
+</LinearLayout>

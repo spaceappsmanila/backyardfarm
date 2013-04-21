@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  
+  <!-- ========== Text View ========== -->
+  <dimen name="base_textView_layout_marginTop">5dp</dimen>
+  <dimen name="base_textView_layout_marginRight">5dp</dimen>
+  <dimen name="base_textView_layout_marginBottom">5dp</dimen>
+  <dimen name="base_textView_layout_marginLeft">5dp</dimen>
+  
+  <dimen name="base_textView_paddingTop">5dp</dimen>
+  <dimen name="base_textView_paddingRight">5dp</dimen>
+  <dimen name="base_textView_paddingBottom">5dp</dimen>
+  <dimen name="base_textView_paddingLeft">5dp</dimen>
+  
+  <!-- ========== Edit Text ========== -->
+  <dimen name="base_editText_layout_marginTop">5dp</dimen>
+  <dimen name="base_editText_layout_marginRight">5dp</dimen>
+  <dimen name="base_editText_layout_marginBottom">5dp</dimen>
+  <dimen name="base_editText_layout_marginLeft">5dp</dimen>
+  
+  <dimen name="base_editText_paddingTop">5dp</dimen>
+  <dimen name="base_editText_paddingRight">5dp</dimen>
+  <dimen name="base_editText_paddingBottom">5dp</dimen>
+  <dimen name="base_editText_paddingLeft">5dp</dimen>
+  
+  <!-- Form Layout container -->
+  <dimen name="base_formLayout_layout_marginTop">5dp</dimen>
+  <dimen name="base_formLayout_layout_marginRight">5dp</dimen>
+  <dimen name="base_formLayout_layout_marginBottom">5dp</dimen>
+  <dimen name="base_formLayout_layout_marginLeft">5dp</dimen>
+  
+  <dimen name="base_formLayout_paddingTop">5dp</dimen>
+  <dimen name="base_formLayout_paddingRight">5dp</dimen>
+  <dimen name="base_formLayout_paddingBottom">5dp</dimen>
+  <dimen name="base_formLayout_paddingLeft">5dp</dimen>
+  
+  <!-- Layout - fieldSet -->
+  <dimen name="base_fieldSet_layout_marginTop">5dp</dimen>
+  <dimen name="base_fieldSet_layout_marginRight">5dp</dimen>
+  <dimen name="base_fieldSet_layout_marginBottom">5dp</dimen>
+  <dimen name="base_fieldSet_layout_marginLeft">5dp</dimen>
+  
+  <dimen name="base_fieldSet_paddingTop">5dp</dimen>
+  <dimen name="base_fieldSet_paddingRight">5dp</dimen>
+  <dimen name="base_fieldSet_paddingBottom">5dp</dimen>
+  <dimen name="base_fieldSet_paddingLeft">5dp</dimen>
+  
+  <!-- ========== Buttons ========== -->
+  <dimen name="base_button_layout_marginTop">5dp</dimen>
+  <dimen name="base_button_layout_marginRight">5dp</dimen>
+  <dimen name="base_button_layout_marginBottom">5dp</dimen>
+  <dimen name="base_button_layout_marginLeft">5dp</dimen>
+  
+  <dimen name="base_button_paddingTop">5dp</dimen>
+  <dimen name="base_button_paddingRight">5dp</dimen>
+  <dimen name="base_button_paddingBottom">5dp</dimen>
+  <dimen name="base_button_paddingLeft">5dp</dimen>
+  
+  <!-- Preview / Next Button -->
+  <dimen name="prevNextButton_layout_marginTop">5dp</dimen>
+  <dimen name="prevNextButton_layout_marginRight">5dp</dimen>
+  <dimen name="prevNextButton_layout_marginBottom">5dp</dimen>
+  <dimen name="prevNextButton_layout_marginLeft">5dp</dimen>
+  
+  <dimen name="prevNextButton_paddingTop">5dp</dimen>
+  <dimen name="prevNextButton_paddingRight">5dp</dimen>
+  <dimen name="prevNextButton_paddingBottom">5dp</dimen>
+  <dimen name="prevNextButton_paddingLeft">5dp</dimen>
+  
+  <!-- ========== ImageView ========== -->
+  <dimen name="base_imageView_layout_marginTop">5dp</dimen>
+  <dimen name="base_imageView_layout_marginRight">5dp</dimen>
+  <dimen name="base_imageView_layout_marginBottom">5dp</dimen>
+  <dimen name="base_imageView_layout_marginLeft">5dp</dimen>
+  
+  <dimen name="base_imageView_paddingTop">5dp</dimen>
+  <dimen name="base_imageView_paddingRight">5dp</dimen>
+  <dimen name="base_imageView_paddingBottom">5dp</dimen>
+  <dimen name="base_imageView_paddingLeft">5dp</dimen>
+  
+  <!-- ========== ListView ========== -->
+  <dimen name="base_listView_layout_marginTop">5dp</dimen>
+  <dimen name="base_listView_layout_marginRight">5dp</dimen>
+  <dimen name="base_listView_layout_marginBottom">5dp</dimen>
+  <dimen name="base_listView_layout_marginLeft">5dp</dimen>
+  
+  <dimen name="base_listView_paddingTop">5dp</dimen>
+  <dimen name="base_listView_paddingRight">5dp</dimen>
+  <dimen name="base_listView_paddingBottom">5dp</dimen>
+  <dimen name="base_listView_paddingLeft">5dp</dimen>
+  
+  <dimen name="base_listView_dividerPadding">10dp</dimen>
+  <dimen name="base_listView_dividerHeight">2dp</dimen>
+  
+  <!-- ========== Custom Divider ========== -->
+  <dimen name="divider_layout_height">2dp</dimen>
+  <dimen name="divider_paddingTop">0dp</dimen>
+  <dimen name="divider_paddingRight">5dp</dimen>
+  <dimen name="divider_paddingBottom">0dp</dimen>
+  <dimen name="divider_paddingLeft">5dp</dimen>
+  
+  <!-- ========== Custom Divider ========== -->
+  <dimen name="spacing_layout_height">10dp</dimen>
+  
+  <!-- ========== Navigation Section ========== -->
+  <dimen name="navigationSection_paddingTop">10dp</dimen>
+  <dimen name="navigationSection_paddingRight">0dp</dimen>
+  <dimen name="navigationSection_paddingBottom">10dp</dimen>
+  <dimen name="navigationSection_paddingLeft">0dp</dimen>
+</resources>

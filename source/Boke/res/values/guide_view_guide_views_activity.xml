@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="guide_view_guide_detail_title_label">Title</string>
+  <string name="guide_view_guide_detail_description_label">Description</string>
+  <string name="guide_view_guide_details_topic_navigation_previous_button">Previous</string>
+  <string name="guide_view_guide_details_topic_navigation_next_button">Next</string>
+</resources>

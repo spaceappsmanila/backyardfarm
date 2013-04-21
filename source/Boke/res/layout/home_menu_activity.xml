@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context=".MenuListActivity"
+  style="@style/listLayout_container_style"
+  >
+  
+  <com.di.boke.core.widget.BaseListView
+    android:id="@+id/home_menu_menu_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/listView_style"
+    />
+
+</LinearLayout>

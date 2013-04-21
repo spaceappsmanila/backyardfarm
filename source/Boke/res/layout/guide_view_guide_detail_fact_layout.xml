@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  style="@style/fieldSet_container_style"
+  >
+  
+  <com.di.boke.core.widget.BaseTextView
+    android:id="@+id/guide_view_guide_detail_fact_message_value"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/fieldSet_value_textView_style"
+    android:visibility="gone"
+    />
+  
+  <com.di.boke.core.widget.BaseTextView
+    android:id="@+id/guide_view_guide_detail_fact_refernce_url_value"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/fieldSet_value_textView_style"
+    android:visibility="gone"
+    />
+  
+  <com.di.boke.core.widget.BaseTextView
+    android:id="@+id/guide_view_guide_detail_fact_image_url_value"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/fieldSet_value_textView_style"
+    android:visibility="gone"
+    />
+  
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  >
+  
+  <com.di.boke.core.widget.BaseTextView
+    android:id="@+id/guide_view_guide_details_topic_header_value"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/sectionHeader_textView_style"
+    />
+  
+  <!-- Spacing -->
+  <View
+     android:layout_height="@dimen/spacing_layout_height"
+     android:layout_width="match_parent"
+     />
+  
+  <LinearLayout
+    android:id="@+id/guide_view_guide_details_topic_fact_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+      
+  </LinearLayout>
+
+</LinearLayout>

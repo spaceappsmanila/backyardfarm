@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    
+     <!-- FieldSet - Legend - Label - TextView -->
+    <style name="sectionHeader_textView_style" parent="@android:style/Widget.TextView">
+      <item name="android:paddingTop">@dimen/base_textView_paddingTop</item>
+      <item name="android:paddingRight">@dimen/base_textView_paddingRight</item>
+      <item name="android:paddingBottom">@dimen/base_textView_paddingBottom</item>
+      <item name="android:paddingLeft">@dimen/base_textView_paddingLeft</item>
+      <item name="android:textSize">18sp</item>
+      <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- FieldSet - Label - TextView -->
+    <style name="fieldSet_label_textView_style" parent="@android:style/Widget.TextView">
+      <item name="android:paddingTop">@dimen/base_textView_paddingTop</item>
+      <item name="android:paddingRight">@dimen/base_textView_paddingRight</item>
+      <item name="android:paddingBottom">@dimen/base_textView_paddingBottom</item>
+      <item name="android:paddingLeft">@dimen/base_textView_paddingLeft</item>
+      <item name="android:textSize">20sp</item>
+      <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- FieldSet - Label - EditText -->
+    <style name="fieldSet_label_editText_style" parent="@android:style/Widget.EditText">
+      <item name="android:paddingTop">@dimen/base_editText_paddingTop</item>
+      <item name="android:paddingRight">@dimen/base_editText_paddingRight</item>
+      <item name="android:paddingBottom">@dimen/base_editText_paddingBottom</item>
+      <item name="android:paddingLeft">@dimen/base_editText_paddingLeft</item>
+      <item name="android:textSize">20sp</item>
+      <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- FieldSet - Value - TextView -->
+    <style name="fieldSet_value_textView_style" parent="@android:style/Widget.TextView">
+      <item name="android:paddingTop">@dimen/base_textView_paddingTop</item>
+      <item name="android:paddingRight">@dimen/base_textView_paddingRight</item>
+      <item name="android:paddingBottom">@dimen/base_textView_paddingBottom</item>
+      <item name="android:paddingLeft">@dimen/base_textView_paddingLeft</item>
+      <item name="android:textSize">15sp</item>
+    </style>
+    
+    <!-- FieldSet - Value - EditText -->
+    <style name="fieldSet_value_editText_style" parent="@android:style/Widget.EditText">
+      <item name="android:paddingTop">@dimen/base_editText_paddingTop</item>
+      <item name="android:paddingRight">@dimen/base_editText_paddingRight</item>
+      <item name="android:paddingBottom">@dimen/base_editText_paddingBottom</item>
+      <item name="android:paddingLeft">@dimen/base_editText_paddingLeft</item>
+      <item name="android:textSize">15sp</item>
+    </style>
+    
+    <!-- FieldSet - Container - Layout -->
+    <style name="fieldSet_container_style">
+      <item name="android:paddingTop">@dimen/base_fieldSet_paddingTop</item>
+      <item name="android:paddingRight">@dimen/base_fieldSet_paddingRight</item>
+      <item name="android:paddingBottom">@dimen/base_fieldSet_paddingBottom</item>
+      <item name="android:paddingLeft">@dimen/base_fieldSet_paddingLeft</item>
+    </style>
+    
+    <!-- Formlayout - Container - Layout -->
+    <style name="formLayout_container_style">
+      <item name="android:layout_width">match_parent</item>
+      <item name="android:layout_height">wrap_content</item>
+      <item name="android:paddingTop">@dimen/base_formLayout_paddingTop</item>
+      <item name="android:paddingRight">@dimen/base_formLayout_paddingRight</item>
+      <item name="android:paddingBottom">@dimen/base_formLayout_paddingBottom</item>
+      <item name="android:paddingLeft">@dimen/base_formLayout_paddingLeft</item>
+    </style>
+    
+    <!-- Button -->
+    <style name="button_style">
+      <item name="android:paddingTop">@dimen/base_button_paddingTop</item>
+      <item name="android:paddingRight">@dimen/base_button_paddingRight</item>
+      <item name="android:paddingBottom">@dimen/base_button_paddingBottom</item>
+      <item name="android:paddingLeft">@dimen/base_button_paddingLeft</item>
+      <item name="android:textSize">20sp</item>
+    </style>
+    
+    <!-- Listable Form Layout - Container - Layout -->
+    <style name="listLayout_container_style">
+      <item name="android:layout_width">match_parent</item>
+      <item name="android:layout_height">match_parent</item>
+    </style>
+    
+    <!-- ImageView -->
+    <style name="imageView_style" >
+      <item name="android:paddingTop">@dimen/base_imageView_paddingTop</item>
+      <item name="android:paddingRight">@dimen/base_imageView_paddingRight</item>
+      <item name="android:paddingBottom">@dimen/base_imageView_paddingBottom</item>
+      <item name="android:paddingLeft">@dimen/base_imageView_paddingLeft</item>
+    </style>
+    
+    <!-- ListView -->
+    <style name="listView_style" parent="@android:style/Widget.ListView">
+      <item name="android:paddingTop">@dimen/base_listView_paddingTop</item>
+      <item name="android:paddingRight">@dimen/base_listView_paddingRight</item>
+      <item name="android:paddingBottom">@dimen/base_listView_paddingBottom</item>
+      <item name="android:paddingLeft">@dimen/base_listView_paddingLeft</item>
+      <item name="android:dividerPadding">@dimen/base_listView_dividerPadding</item>
+      <item name="android:dividerHeight">@dimen/base_listView_dividerHeight</item>
+      <item name="android:layout_width">match_parent</item>
+    </style>
+    
+    <!-- Divider Style -->
+    <style name="divider_style" >
+      <item name="android:background">#5d8aa8</item>
+      <item name="android:paddingTop">@dimen/divider_paddingTop</item>
+      <item name="android:paddingRight">@dimen/divider_paddingRight</item>
+      <item name="android:paddingBottom">@dimen/divider_paddingBottom</item>
+      <item name="android:paddingLeft">@dimen/divider_paddingLeft</item>
+    </style>
+    
+    <!-- Navigation Section Style -->
+    <style name="navigationSection_style">
+      <item name="android:paddingTop">@dimen/navigationSection_paddingTop</item>
+      <item name="android:paddingRight">@dimen/navigationSection_paddingRight</item>
+      <item name="android:paddingBottom">@dimen/navigationSection_paddingBottom</item>
+      <item name="android:paddingLeft">@dimen/navigationSection_paddingLeft</item>
+    </style>
+</resources>
