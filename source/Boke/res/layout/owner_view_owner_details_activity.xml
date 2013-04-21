@@ -1,0 +1,123 @@
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".ViewOwnerDetailsActivity"
+  >
+
+  <LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+    <!-- Owner Name -->
+    <LinearLayout
+      android:id="@+id/owner_view_owner_details_name_fieldset"
+      style="@style/fieldSet_container_style"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+      <com.di.boke.core.widget.BaseTextView
+        android:id="@+id/owner_view_owner_details_name_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/owner_view_owner_details_name_label"
+        style="@style/fieldSet_label_textView_style"
+        />
+      <com.di.boke.core.widget.BaseTextView
+        android:id="@+id/owner_view_owner_details_name_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/fieldSet_value_textView_style"
+        />
+    </LinearLayout>
+    
+    <!-- Divider -->
+    <View
+       android:layout_height="@dimen/divider_layout_height"
+       android:layout_width="match_parent"
+       style="@style/divider_style"
+       />
+    
+    <!-- Address -->
+    <LinearLayout
+      android:id="@+id/owner_view_owner_details_address_fieldset"
+      style="@style/fieldSet_container_style"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+      <com.di.boke.core.widget.BaseTextView
+        android:id="@+id/owner_view_owner_details_address_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/owner_view_owner_details_address_label"
+        style="@style/fieldSet_label_textView_style"
+        />
+      <com.di.boke.core.widget.BaseTextView
+        android:id="@+id/owner_view_owner_details_address_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/fieldSet_value_textView_style"
+        />
+    </LinearLayout>
+    
+    <!-- Divider -->
+    <View
+       android:layout_height="@dimen/divider_layout_height"
+       android:layout_width="match_parent"
+       style="@style/divider_style"
+       />
+    
+    <com.di.boke.core.widget.BaseTextView
+      android:id="@+id/owner_view_owner_details_contacts_header_label"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/owner_view_owner_details_contacts_header_label"
+      style="@style/sectionHeader_textView_style"
+      />
+    
+    <!-- Divider -->
+    <View
+       android:layout_height="@dimen/divider_layout_height"
+       android:layout_width="match_parent"
+       style="@style/divider_style"
+       />
+    
+    <LinearLayout
+        android:id="@+id/owner_view_owner_details_navigation_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        style="@style/navigationSection_style"
+        >
+        <!-- Back Button -->
+        <com.di.boke.core.widget.BaseButton
+          android:id="@+id/owner_view_owner_details_navigation_back_button"
+          android:layout_width="0dip"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="@string/owner_view_owner_details_navigation_back_button"
+          style="@style/button_style"
+          />
+        <!-- Edit Button -->
+        <com.di.boke.core.widget.BaseButton
+          android:id="@+id/owner_view_owner_details_navigation_edit_button"
+          android:layout_width="0dip"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="@string/owner_view_owner_details_navigation_edit_button"
+          style="@style/button_style"
+          />
+    </LinearLayout>
+    
+    <!-- Divider -->
+    <View
+       android:layout_height="@dimen/divider_layout_height"
+       android:layout_width="match_parent"
+       style="@style/divider_style"
+       />
+  </LinearLayout>
+</ScrollView>

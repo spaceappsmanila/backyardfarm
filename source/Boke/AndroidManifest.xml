@@ -8,11 +8,14 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="16" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        android:uiOptions="splitActionBarWhenNarrow" >
         <activity
             android:name="com.di.boke.UserLoginActivity"
             android:label="@string/app_name"
@@ -27,6 +30,7 @@
             android:name="com.di.boke.home.activity.MenuListActivity"
             android:label="@string/title_activity_menu_list" >
         </activity>
+        <!-- Guide -->
         <activity
             android:name="com.di.boke.guide.activity.ViewGuideViewsActivity"
             android:label="@string/title_activity_view_guide_views" >
@@ -34,6 +38,21 @@
         <activity
             android:name="com.di.boke.guide.activity.ViewGuideDetailActivity"
             android:label="@string/title_activity_view_guide_detail" >
+        </activity>
+
+        <!-- Pasture -->
+        <activity
+            android:name="com.di.boke.pasture.activity.ViewPastureViewsActivity"
+            android:label="@string/title_activity_view_pasture_views" >
+        </activity>
+        <activity
+            android:name="com.di.boke.pasture.activity.AddPastureActivity"
+            android:label="@string/title_activity_add_pasture" >
+        </activity>
+        <!-- Owner -->
+        <activity
+            android:name="com.di.boke.owner.activity.ViewOwnerDetailsActivity"
+            android:label="@string/title_activity_view_owner_details" >
         </activity>
     </application>
 

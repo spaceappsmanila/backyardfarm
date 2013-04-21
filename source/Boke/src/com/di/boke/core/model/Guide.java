@@ -1,29 +1,33 @@
 package com.di.boke.core.model;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
- *
- * @since 2013-04-20
- * @author John Francis P. De Leon
+ * @author Andrew Ray Abad
  * @author Dungeon Innovations
+ * @since  2013-04-21
  */
-public class Guide
+public class Guide implements Serializable
 {
-  private final String      id;
-  private final String      name;
-  private final String      description;
-  private final List<Topic> articles;
+  /**
+   * Auto-generated serialVersionUID
+   * In case of using serializable objects
+   * for future preferences
+   */
+  private static final long serialVersionUID = 3923822416729804000L;
   
-  public Guide( String id
-                , String name
-                , String description
-                , List<Topic> articles)
+  private String      id;
+  private String      name;
+  private String      description;
+  private List<Topic> topics;
+
+  public Guide(String id, String name, String description, List<Topic> topics)
   {
-    this.id           = id;
-    this.name         = name;
-    this.description  = description;
-    this.articles     = articles;
+    this.id = id;
+    this.name = name;
+    this.description = description;
+    this.topics = topics;
   }
 
   public String getId()
@@ -41,24 +45,28 @@ public class Guide
     return description;
   }
 
-  public List<Topic> getArticles()
+  public List<Topic> getTopics()
   {
-    return articles;
+    return topics;
   }
 
-  @Override
-  public String toString()
+  public void setId(String id)
   {
-    StringBuilder builder = new StringBuilder();
-    builder.append("{id : ");
-    builder.append(id);
-    builder.append(",name : ");
-    builder.append(name);
-    builder.append(",description : ");
-    builder.append(description);
-    builder.append(",articles : ");
-    builder.append(articles);
-    builder.append("}");
-    return builder.toString();
+    this.id = id;
+  }
+
+  public void setName(String name)
+  {
+    this.name = name;
+  }
+
+  public void setDescription(String description)
+  {
+    this.description = description;
+  }
+
+  public void setTopics(List<Topic> topics)
+  {
+    this.topics = topics;
   }
 }

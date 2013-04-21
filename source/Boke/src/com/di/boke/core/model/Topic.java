@@ -1,34 +1,33 @@
 package com.di.boke.core.model;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
- *
- * @since 2013-04-20
- * @author John Francis P. De Leon
+ * @author Andrew Ray Abad
  * @author Dungeon Innovations
+ * @since  2013-04-21
  */
-public class Topic
+public class Topic implements Serializable
 {
-  private final String      id;
-  private final String      header;
-  private final List<Fact>  facts;
+  /**
+   * Auto-generated serialVersionUID
+   * In case of using serializable objects
+   * for future preferences
+   */
+  private static final long serialVersionUID = -4404331295222471771L;
   
-  public Topic(String id, String header, List<Fact> facts)
+  private String id;
+  private String header;
+  private Integer sequence;
+  private List<Fact> facts;
+
+  public Topic(String id, String header, Integer sequence, List<Fact> facts)
   {
-    this.id     = id;
+    this.id = id;
     this.header = header;
-    this.facts  = facts;
-  }
-
-  public String getHeader()
-  {
-    return header;
-  }
-
-  public List<Fact> getFacts()
-  {
-    return facts;
+    this.sequence = sequence;
+    this.facts = facts;
   }
 
   public String getId()
@@ -36,17 +35,38 @@ public class Topic
     return id;
   }
 
-  @Override
-  public String toString()
+  public String getHeader()
   {
-    StringBuilder builder = new StringBuilder();
-    builder.append("{id : ");
-    builder.append(id);
-    builder.append(",header : ");
-    builder.append(header);
-    builder.append(",facts : ");
-    builder.append(facts);
-    builder.append("}");
-    return builder.toString();
+    return header;
+  }
+
+  public Integer getSequence()
+  {
+    return sequence;
+  }
+
+  public List<Fact> getFacts()
+  {
+    return facts;
+  }
+
+  public void setId(String id)
+  {
+    this.id = id;
+  }
+
+  public void setHeader(String header)
+  {
+    this.header = header;
+  }
+
+  public void setSequence(Integer sequence)
+  {
+    this.sequence = sequence;
+  }
+
+  public void setFacts(List<Fact> facts)
+  {
+    this.facts = facts;
   }
 }

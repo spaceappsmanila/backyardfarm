@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="owner_view_owner_details_name_label">Name</string>
+  <string name="owner_view_owner_details_address_label">Address</string>
+  <string name="owner_view_owner_details_contacts_header_label">Contacts</string>
+  <string name="owner_view_owner_details_navigation_back_button">Back</string>
+  <string name="owner_view_owner_details_navigation_edit_button">Edit</string>
+</resources>

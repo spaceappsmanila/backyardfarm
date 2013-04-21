@@ -20,6 +20,14 @@ public
    */
   public List<Guide> getAllGuides()
   {
+    /*
+     * TODO
+     * 
+     * Temporary retrieve from sample data.
+     * 
+     * Future: Retrieve from the Cloud via Web Service. 
+     * Using the NuvolaService utility.
+     */
     List<Guide> guides = GuideDataFactory.getGuides();
     
     return guides;
@@ -27,6 +35,14 @@ public
   
   public Guide getGuide(String guideId)
   {
+    /*
+     * TODO
+     * 
+     * Temporary retrieve from sample data.
+     * 
+     * Future: Retrieve from the Cloud via Web Service. 
+     * Using the NuvolaService utility.
+     */
     List<Guide> guides = GuideDataFactory.getGuides();
     
     Guide selectedGuide = null;

@@ -61,7 +61,7 @@ public
       public void onClick(View view)
       {
         List<Topic> topics
-          = loadedGuide != null ? loadedGuide.getArticles() : null;
+          = loadedGuide != null ? loadedGuide.getTopics() : null;
         if (topics != null)
         {
           loadPreviousTopic();
@@ -82,7 +82,7 @@ public
       public void onClick(View v)
       {
         List<Topic> topics
-          = loadedGuide != null ? loadedGuide.getArticles() : null;
+          = loadedGuide != null ? loadedGuide.getTopics() : null;
         if (topics != null)
         {
           loadNextTopic();
@@ -111,7 +111,7 @@ public
 
   public void loadTopic(Integer topicPosition)
   {
-    List<Topic> topics = this.loadedGuide.getArticles();
+    List<Topic> topics = this.loadedGuide.getTopics();
     
     if (topics == null 
         || topicPosition < 0 
@@ -196,7 +196,7 @@ public
 
   public void loadPreviousTopic()
   {
-    List<Topic> topics = this.loadedGuide.getArticles();
+    List<Topic> topics = this.loadedGuide.getTopics();
     
     int topicCount = topics != null ? topics.size() : 0;
 
@@ -210,7 +210,7 @@ public
 
   public void loadNextTopic()
   {
-    List<Topic> topics = this.loadedGuide.getArticles();
+    List<Topic> topics = this.loadedGuide.getTopics();
 
     int topicCount = topics != null ? topics.size() : 0;
 

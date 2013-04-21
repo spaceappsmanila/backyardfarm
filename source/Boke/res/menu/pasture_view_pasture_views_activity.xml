@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  <item
+    android:id="@+id/pasture_view_pasture_views_add_pasture"
+    android:showAsAction="always"
+    android:title="@string/pasture_view_pasture_views_add_pasture"/>
+
+</menu>

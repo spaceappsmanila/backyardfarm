@@ -1,30 +1,43 @@
 package com.di.boke.core.model;
 
+import java.io.Serializable;
+
 /**
- *
- * @since 2013-04-20
- * @author John Francis P. De Leon
+ * @author Andrew Ray Abad
  * @author Dungeon Innovations
+ * @since  2013-04-21
  */
-public class Fact
+public class Fact implements Serializable
 {
-  private final String  id;
-  private final String  messageBody;
-  private final Boolean isTip;
-  private final String  referenceUrl;
-  private final String  imageUrl;
+  /**
+   * Auto-generated serialVersionUID
+   * In case of using serializable objects
+   * for future preferences
+   */
+  private static final long serialVersionUID = 6601177278321250362L;
   
+  private String id;
+  private String messageBody;
+  private Boolean isTip;
+  private String referenceUrl;
+  private String imageUrl;
+  private Integer sequence;
+  
+  
+
   public Fact(String id
               , String messageBody
               , Boolean isTip
               , String referenceUrl
-              , String imageUrl)
+              , String imageUrl
+              , Integer sequence)
   {
-    this.id           = id;
-    this.messageBody  = messageBody;
-    this.isTip        = isTip;
+    this.id = id;
+    this.messageBody = messageBody;
+    this.isTip = isTip;
     this.referenceUrl = referenceUrl;
-    this.imageUrl     = imageUrl;
+    this.imageUrl = imageUrl;
+    this.sequence = sequence;
   }
 
   public String getId()
@@ -52,24 +65,38 @@ public class Fact
     return imageUrl;
   }
 
-  @Override
-  public String toString()
+  public Integer getSequence()
   {
-    StringBuilder builder = new StringBuilder();
-    builder.append("{id : ");
-    builder.append(id);
-    builder.append(",messageBody : ");
-    builder.append(messageBody);
-    builder.append(",isTip : ");
-    builder.append(isTip);
-    builder.append(",referenceUrl : ");
-    builder.append(referenceUrl);
-    builder.append(",imageUrl : ");
-    builder.append(imageUrl);
-    builder.append("}");
-    return builder.toString();
+    return sequence;
   }
-  
-  
-  
+
+  public void setId(String id)
+  {
+    this.id = id;
+  }
+
+  public void setMessageBody(String messageBody)
+  {
+    this.messageBody = messageBody;
+  }
+
+  public void setIsTip(Boolean isTip)
+  {
+    this.isTip = isTip;
+  }
+
+  public void setReferenceUrl(String referenceUrl)
+  {
+    this.referenceUrl = referenceUrl;
+  }
+
+  public void setImageUrl(String imageUrl)
+  {
+    this.imageUrl = imageUrl;
+  }
+
+  public void setSequence(Integer sequence)
+  {
+    this.sequence = sequence;
+  }
 }

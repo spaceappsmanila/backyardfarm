@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="pasture_pasture_list_layout_land_area_label">Land Area (sq. m)</string>
+  <string name="pasture_pasture_list_layout_cancel">Cancel</string>
+  <string name="pasture_pasture_list_layout_edit">Edit</string>
+</resources>

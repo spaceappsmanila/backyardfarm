@@ -13,9 +13,7 @@ package com.di.boke.core.adapter;
 public
   interface Listable
 {
-  public Long getId();
-  
-  public Integer getSystemId();
+  public String getId();
   
   public String getHeader();
 }

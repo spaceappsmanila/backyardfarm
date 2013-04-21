@@ -72,7 +72,7 @@ public
     
     if (guide != null)
     {
-      List<Topic> topics = guide.getArticles();
+      List<Topic> topics = guide.getTopics();
       
       if (topics.size() != 0)
       {

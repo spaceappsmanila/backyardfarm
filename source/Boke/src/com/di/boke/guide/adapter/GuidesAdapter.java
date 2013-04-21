@@ -15,9 +15,8 @@ import com.di.boke.R;
 import com.di.boke.core.model.Guide;
 
 /**
- * This class is used to convert a list of <code>Asset</code> objects
- * and render it as a list of items.
  * 
+ * @since 2013-04-21
  * @author Dungeon Innovations
  *
  */
@@ -60,7 +59,7 @@ public
     }
     
     /*
-     * retrieve the corresponding Asset and bind it to the user interface
+     * retrieve the corresponding Guide and bind it to the user interface
      */
     Guide guide = guideList.get(position);
     
