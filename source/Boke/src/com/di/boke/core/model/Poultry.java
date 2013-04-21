@@ -3,11 +3,12 @@ package com.di.boke.core.model;
 import java.io.Serializable;
 
 /**
- * @author Andrew Ray Abad
  * @author Dungeon Innovations
  * @since  2013-04-21
  */
-public class Poultry implements Serializable
+public
+  class       Poultry
+  implements  Serializable
 {
   /**
    * Auto-generated serialVersionUID
@@ -16,13 +17,13 @@ public class Poultry implements Serializable
    */
   private static final long serialVersionUID = 4356026692822949523L;
   
-  private String id;
-  private Breed breed;
-  private PoultryProfile profile;
-  private PoultryHealth health;
-  private Pasture pasture;
-  private Coop coop;
-  private String imageUrl;
+  private String          id;
+  private Breed           breed;
+  private PoultryProfile  profile;
+  private PoultryHealth   health;
+  private Pasture         pasture;
+  private Coop            coop;
+  private String          imageUrl;
 
   public String getId()
   {

@@ -14,6 +14,14 @@ public class PastureSo
 {
   public List<Pasture> getAllPastures()
   {
+    /*
+     * TODO
+     * 
+     * Temporary retrieve from sample data.
+     * 
+     * Future: Retrieve from the Cloud via Web Service. 
+     * Using the NuvolaService utility.
+     */
     List<Pasture> pastureList = PastureDataFactory.getPastureList();
     
     return pastureList;
@@ -21,6 +29,14 @@ public class PastureSo
   
   public Pasture getPasture(String pastureId)
   {
+    /*
+     * TODO
+     * 
+     * Temporary retrieve from sample data.
+     * 
+     * Future: Retrieve from the Cloud via Web Service. 
+     * Using the NuvolaService utility.
+     */
     List<Pasture> pastureList = PastureDataFactory.getPastureList();
     
     Pasture selectedPasture = null;
