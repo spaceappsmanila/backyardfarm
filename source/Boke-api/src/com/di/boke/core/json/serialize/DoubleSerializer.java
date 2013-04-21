@@ -10,7 +10,6 @@ import com.google.gson.JsonSerializer;
 /**
  * This class serializes the Wrapper class Double into a String
  * 
- * @author Andrew Ray Abad
  * @author Dungeon Innovations
  * @since  2013-04-21
  */

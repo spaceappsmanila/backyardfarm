@@ -9,7 +9,6 @@ import javax.ws.rs.core.Response;
 /**
  * This class is the exposed resource for the backyard farming.
  * 
- * @author Andrew Ray Abad
  * @author Dungeon Innovations
  * @since  2013-04-21
  */

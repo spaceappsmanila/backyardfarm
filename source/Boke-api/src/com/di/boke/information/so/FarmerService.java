@@ -7,7 +7,6 @@ import com.di.boke.core.json.JsonProcessor;
 /**
  * This is the service object that process the reading and writing of Json
  * 
- * @author Andrew Ray Abad
  * @author Dungeon Innovations
  * @since 2013-04-21
  */
