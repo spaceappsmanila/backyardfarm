@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="50dp"
+  android:padding="6dip"
+  android:orientation="horizontal"
+  >
+  
+ <com.di.boke.core.widget.BaseTextView
+    android:id="@+id/core_generic_list_layout_name_text"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center_vertical"
+    style="@style/fieldSet_label_textView_style"
+    />
+
+</LinearLayout>

@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 import com.di.boke.guide.activity.ViewGuideViewsActivity;
+import com.di.boke.pasture.activity.ViewPastureViewsActivity;
 
 import android.app.Activity;
 
@@ -19,15 +20,25 @@ public
   enum MenuEnum
 {
   
-  NOTICES
+  GUIDES
   (
     1000L
-    , 1009
+    , 1000
     , "Guides"
     , null
     , null
     , null
     , ViewGuideViewsActivity.class
+  )
+  , PASTURE
+  (
+    1001L
+    , 1001
+    , "Pasture"
+    , null
+    , null
+    , null
+    , ViewPastureViewsActivity.class
   )
   ;
   

@@ -20,8 +20,8 @@ import com.di.boke.R;
  *
  */
 public
-  class ListableSpinnerAdapter
-  implements SpinnerAdapter
+  class       ListableSpinnerAdapter
+  implements  SpinnerAdapter
 {
   private final List<? extends Listable>  listableInterfaces;
   private final Context                   context;
@@ -87,8 +87,7 @@ public
       String description = listable.getHeader();
       descriptionTextView.setText(description);
       
-      int systemId = listable.getSystemId().intValue();
-      view.setId(systemId);
+      view.setTag(listable);
     }
     
     return view;
@@ -158,8 +157,7 @@ public
       String description = listable.getHeader();
       descriptionTextView.setText(description);
       
-      int systemId = listable.getSystemId().intValue();
-      view.setId(systemId);
+      view.setTag(listable);
     }
     
     return view;
