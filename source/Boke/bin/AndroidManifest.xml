@@ -49,8 +49,9 @@
             android:name="com.di.boke.pasture.activity.AddPastureActivity"
             android:label="@string/title_activity_add_pasture" >
         </activity>
+        <!-- Owner -->
         <activity
-            android:name="com.di.boke.ViewOwnerDetailsActivity"
+            android:name="com.di.boke.owner.activity.ViewOwnerDetailsActivity"
             android:label="@string/title_activity_view_owner_details" >
         </activity>
     </application>
