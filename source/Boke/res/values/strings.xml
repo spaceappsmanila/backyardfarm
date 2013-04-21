@@ -8,5 +8,6 @@
     <string name="title_activity_view_guide_views">Guides</string>
     <string name="title_activity_view_guide_detail">Guide Detail</string>
     <string name="title_activity_view_pasture_views">Pastures</string>
+    <string name="title_activity_add_pasture">Add Pasture</string>
 
 </resources>

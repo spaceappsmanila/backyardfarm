@@ -39,14 +39,16 @@
             android:name="com.di.boke.guide.activity.ViewGuideDetailActivity"
             android:label="@string/title_activity_view_guide_detail" >
         </activity>
-        
+
         <!-- Pasture -->
         <activity
             android:name="com.di.boke.pasture.activity.ViewPastureViewsActivity"
             android:label="@string/title_activity_view_pasture_views" >
         </activity>
-        
-        
+        <activity
+            android:name="com.di.boke.pasture.activity.AddPastureActivity"
+            android:label="@string/title_activity_add_pasture" >
+        </activity>
     </application>
 
 </manifest>

@@ -29,10 +29,12 @@ public class PastureDataFactory
     Pasture pastureA = new Pasture();
     pastureA.setName("My Pasture A");
     pastureA.setId("A");
+    pastureA.setLandArea(1000.0);
     
     Pasture pastureB = new Pasture();
     pastureB.setName("My Pasture B");
     pastureB.setId("B");
+    pastureB.setLandArea(200.0);
     
     List<Pasture> pastureList = new LinkedList<Pasture>();
     pastureList.add(pastureA);

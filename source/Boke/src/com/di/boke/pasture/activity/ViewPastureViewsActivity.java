@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.ListView;
 
 import com.di.boke.R;
@@ -41,6 +42,27 @@ public
     return true;
   }
   
+  
+  
+  @Override
+  public boolean onOptionsItemSelected(MenuItem item)
+  {
+    switch (item.getItemId())
+    {
+      default:
+      {
+        return super.onOptionsItemSelected(item);
+      }
+      case R.id.pasture_view_pasture_views_add_pasture:
+      {
+        Intent addPasture = new Intent(this, AddPastureActivity.class);
+        startActivity(addPasture);
+        
+        return true;
+      }
+    }
+  }
+
   @Override
   public void onBackPressed()
   {

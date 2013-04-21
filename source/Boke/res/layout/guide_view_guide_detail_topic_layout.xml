@@ -5,7 +5,15 @@
   android:layout_height="match_parent"
   android:orientation="vertical"
   >
-  
+  <LinearLayout
+    android:id="@+id/guide_view_guide_detail_name_fieldset"
+    style="@style/fieldSet_container_style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    
+   </LinearLayout>
   <com.di.boke.core.widget.BaseTextView
     android:id="@+id/guide_view_guide_details_topic_header_value"
     android:layout_width="match_parent"

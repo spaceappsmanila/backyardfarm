@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="pasture_add_pasture_name_label">Name</string>
+  <string name="pasture_add_pasture_name_value_hint">Enter name of the Pasture</string>
+  <string name="pasture_add_pasture_land_area_label">Land Area (sq. m)</string>
+  <string name="pasture_add_pasture_land_area_value_hint">200.00</string>
+  <string name="pasture_add_pasture_snapshot_label">Snapshot</string>
+  <string name="pasture_add_pasture_cancel_button">Cancel</string>
+  <string name="pasture_add_pasture_add_button">Add</string>
+</resources>
