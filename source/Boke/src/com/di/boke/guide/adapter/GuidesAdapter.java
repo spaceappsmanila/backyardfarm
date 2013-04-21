@@ -59,7 +59,7 @@ public
     }
     
     /*
-     * retrieve the corresponding Asset and bind it to the user interface
+     * retrieve the corresponding Guide and bind it to the user interface
      */
     Guide guide = guideList.get(position);
     

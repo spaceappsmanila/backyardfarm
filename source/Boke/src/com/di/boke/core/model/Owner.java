@@ -4,11 +4,12 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * @author Andrew Ray Abad
  * @author Dungeon Innovations
  * @since  2013-04-21
  */
-public class Owner implements Serializable
+public
+  class       Owner
+  implements  Serializable
 {
   /**
    * Auto-generated serialVersionUID
@@ -17,11 +18,24 @@ public class Owner implements Serializable
    */
   private static final long serialVersionUID = 6789734274720581807L;
 
-  private String id;
-  private OwnerInfo info;
+  private String        id;
+  private OwnerInfo     info;
   private List<Contact> contacts;
-  private Pasture pasture;
-  private List<Coop> coops;
+  private Pasture       pasture;
+  private List<Coop>    coops;
+
+  public Owner( String id
+                , OwnerInfo info
+                , List<Contact> contacts
+                , Pasture pasture
+                , List<Coop> coops)
+  {
+    this.id       = id;
+    this.info     = info;
+    this.contacts = contacts;
+    this.pasture  = pasture;
+    this.coops    = coops;
+  }
 
   public String getId()
   {
@@ -71,5 +85,22 @@ public class Owner implements Serializable
   public void setCoops(List<Coop> coops)
   {
     this.coops = coops;
+  }
+  
+  public String getFullName()
+  {
+    StringBuilder fullName = new StringBuilder();
+    
+    if (info != null)
+    {
+      String lastName = info.getLastName();
+      fullName.append(lastName);
+      
+      String firstName = info.getFirstName();
+      fullName.append(" ");
+      fullName.append(firstName);
+    }
+    
+    return fullName.toString();
   }
 }

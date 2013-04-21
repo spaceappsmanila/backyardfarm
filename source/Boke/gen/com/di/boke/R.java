@@ -191,35 +191,37 @@ containing a value of this type.
         public static final int guide_view_guide_detail_topic_layout=0x7f030006;
         public static final int guide_view_guide_views_activity=0x7f030007;
         public static final int home_menu_activity=0x7f030008;
-        public static final int pasture_add_pasture_activity=0x7f030009;
-        public static final int pasture_pasture_list_layout=0x7f03000a;
-        public static final int pasture_view_pasture_views_activity=0x7f03000b;
-        public static final int user_login_activity=0x7f03000c;
+        public static final int owner_view_owner_details_activity=0x7f030009;
+        public static final int pasture_add_pasture_activity=0x7f03000a;
+        public static final int pasture_pasture_list_layout=0x7f03000b;
+        public static final int pasture_view_pasture_views_activity=0x7f03000c;
+        public static final int user_login_activity=0x7f03000d;
     }
     public static final class menu {
         public static final int guide_view_guide_detail_activity=0x7f070000;
         public static final int guide_view_guides_activity=0x7f070001;
         public static final int home_menu_list_activity=0x7f070002;
-        public static final int pasture_add_pasture_activity=0x7f070003;
-        public static final int pasture_view_pasture_views_activity=0x7f070004;
-        public static final int user_login_activity=0x7f070005;
+        public static final int owner_view_owner_details_activity=0x7f070003;
+        public static final int pasture_add_pasture_activity=0x7f070004;
+        public static final int pasture_view_pasture_views_activity=0x7f070005;
+        public static final int user_login_activity=0x7f070006;
     }
     public static final class string {
-        public static final int action_sign_in_register=0x7f05001a;
-        public static final int action_sign_in_short=0x7f05001b;
+        public static final int action_sign_in_register=0x7f05001b;
+        public static final int action_sign_in_short=0x7f05001c;
         public static final int app_name=0x7f050010;
-        public static final int error_field_required=0x7f050021;
-        public static final int error_incorrect_password=0x7f050020;
-        public static final int error_invalid_email=0x7f05001e;
-        public static final int error_invalid_password=0x7f05001f;
+        public static final int error_field_required=0x7f050022;
+        public static final int error_incorrect_password=0x7f050021;
+        public static final int error_invalid_email=0x7f05001f;
+        public static final int error_invalid_password=0x7f050020;
         public static final int guide_view_guide_detail_description_label=0x7f050002;
         public static final int guide_view_guide_detail_title_label=0x7f050001;
         public static final int guide_view_guide_details_topic_header_label=0x7f050000;
         public static final int guide_view_guide_details_topic_navigation_next_button=0x7f050004;
         public static final int guide_view_guide_details_topic_navigation_previous_button=0x7f050003;
         public static final int hello_world=0x7f050011;
-        public static final int login_progress_signing_in=0x7f05001d;
-        public static final int menu_forgot_password=0x7f05001c;
+        public static final int login_progress_signing_in=0x7f05001e;
+        public static final int menu_forgot_password=0x7f05001d;
         public static final int menu_settings=0x7f050012;
         public static final int pasture_add_pasture_add_button=0x7f05000b;
         public static final int pasture_add_pasture_cancel_button=0x7f05000a;
@@ -234,12 +236,13 @@ containing a value of this type.
         public static final int pasture_view_pasture_views_add_pasture=0x7f05000f;
         /**  Strings related to login 
          */
-        public static final int prompt_email=0x7f050018;
-        public static final int prompt_password=0x7f050019;
+        public static final int prompt_email=0x7f050019;
+        public static final int prompt_password=0x7f05001a;
         public static final int title_activity_add_pasture=0x7f050017;
         public static final int title_activity_menu_list=0x7f050013;
         public static final int title_activity_view_guide_detail=0x7f050015;
         public static final int title_activity_view_guide_views=0x7f050014;
+        public static final int title_activity_view_owner_details=0x7f050018;
         public static final int title_activity_view_pasture_views=0x7f050016;
     }
     public static final class style {

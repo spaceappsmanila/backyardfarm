@@ -1,13 +1,11 @@
 package com.di.boke.pasture.activity;
 
-import com.di.boke.R;
-import com.di.boke.R.layout;
-import com.di.boke.R.menu;
-
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.Menu;
+
+import com.di.boke.R;
 
 public class AddPastureActivity extends Activity
 {
