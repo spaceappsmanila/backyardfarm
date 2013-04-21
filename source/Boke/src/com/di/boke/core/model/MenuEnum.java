@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 import com.di.boke.guide.activity.ViewGuideViewsActivity;
+import com.di.boke.merchandise.activity.ViewMerchandiseViewsActivity;
 import com.di.boke.pasture.activity.ViewPastureViewsActivity;
 
 import android.app.Activity;
@@ -100,7 +101,7 @@ public
     , null
     , null
   )
-  , MERCHENDISE
+  , MERCHANDISE
   (
     1008L
     , 1008
@@ -108,7 +109,7 @@ public
     , null
     , null
     , null
-    , null
+    , ViewMerchandiseViewsActivity.class
   )
   ;
   
