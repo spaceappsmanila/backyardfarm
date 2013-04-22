@@ -1,6 +1,5 @@
 package com.di.boke.core.sampledata;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
@@ -77,8 +76,8 @@ public class GuideDataFactory
 
     
     topics = new LinkedList<Topic>();
-    List<Fact> poultryFacts = new LinkedList<Fact>();
-    poultryFacts
+    List<Fact> poultryFactsA = new LinkedList<Fact>();
+    poultryFactsA
       .add(new Fact(
         "20006",
         "Chickens in small flocks live several years if conditions are correct. A life span of 6-8 years may not be unreasonable.   Most commercial layers are kept for 2-3 years.",
@@ -87,10 +86,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3002", "How long do chickens live?", null,
-        poultryFacts));
+        poultryFactsA));
     // Clear
-    poultryFacts.clear();
-    poultryFacts
+    
+    List<Fact> poultryFactsB = new LinkedList<Fact>();
+    poultryFactsB
       .add(new Fact(
         "20007",
         "Under optimum conditions; good nutrition, ideal day length, adequate housing and good management practices, most layers should begin egg production at about 20-22 weeks of age.",
@@ -99,11 +99,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3003", "How old are chickens when they begin to lay eggs?", null,
-        poultryFacts));
+        poultryFactsB));
     
     // Clear
-    poultryFacts.clear();
-    poultryFacts
+    List<Fact> poultryFactsC = new LinkedList<Fact>();
+    poultryFactsC
       .add(new Fact(
         "20008",
         "Commercial rations will usually produce the best results from all types of poultry.  A ration designed specifically for a particular type of bird should always be used (ie. layer ration for layers, broiler ration for broilers, etc.).  The commercial ration should not be supplemented with scratch, corn or table scraps because the birds will not be eating a balanced diet.",
@@ -112,11 +112,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3004", "What should chickens be fed?", null,
-        poultryFacts));
+        poultryFactsC));
 
     // Clear
-    poultryFacts.clear();
-    poultryFacts
+    List<Fact> poultryFactsD = new LinkedList<Fact>();
+    poultryFactsD
       .add(new Fact(
         "20009",
         "Vent sexing by an experienced chick sexer can be done at one day of age.  This technique is difficult and requires a great deal of experience.  If a fast feathering gene has been introduced into the breeding flock, chicks can be sexed by observing the differences in the appearance of the primary wing feathers.  The feathers on the wings of the female will be a little longer and in a different pattern than those on the males.  Most chickens can not be sexed in this manner.",
@@ -125,11 +125,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3005", "How can the sex of baby chicks be determined?", null,
-        poultryFacts));
+        poultryFactsD));
     
     // Clear
-    poultryFacts.clear();
-    poultryFacts
+    List<Fact> poultryFactsE = new LinkedList<Fact>();
+    poultryFactsE
       .add(new Fact(
         "20010",
         "Yes, most eggs produced for human consumption are produced this way and are non-fertile.",
@@ -138,11 +138,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3006", "Can eggs be produced without a male being present?", null,
-        poultryFacts));
+        poultryFactsE));
     
     // Clear
-    poultryFacts.clear();
-    poultryFacts
+    List<Fact> poultryFactsF = new LinkedList<Fact>();
+    poultryFactsF
       .add(new Fact(
         "20011",
         "Chickens reproduce in a manner similar to some other animals.  The female produces an egg which if fertilized can result in a baby chick.  The true egg, the part that develops into the embryo, is located on the egg yolk.  The yolk begins to develop in the ovary and after 10-12 days of development, ovulation occurs.  If the female has been mating with a male, sperm will be present and fertilization can occur.  The male chicken does not have a penis and therefore there is no penetration of the female reproductive tract at the time of mating.  Instead the female inverts the cloaca (site of the common junction of the reproductive and digestive systems) which comes in contact with the male’s inverted cloaca and receives the sperm.  The cloaca is then drawn back into the hen’s body and the sperm are captured. They then begin the journey up the length of the reproductive system.  The sperm live inside the female reproductive system and each time an ovulation occurs (every 24-26 hours in good egg producers) the egg can become fertile.  This process continues and matings at 7 - 10 day intervals are necessary to maintain fertility.  After fertilization occurs the egg albumen, shell membranes, and shell are added to complete the egg formation process.  The chicken usually lays the egg about 24 hours after ovulation.",
@@ -151,11 +151,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3007", "How do chickens reproduce?", null,
-        poultryFacts));
+        poultryFactsF));
     
     // Clear
-    poultryFacts.clear();
-    poultryFacts
+    List<Fact> poultryFactsG = new LinkedList<Fact>();
+    poultryFactsG
       .add(new Fact(
         "20012",
         "Certified egg production flocks are those flocks that comply with the guidelines established by the United Egg Producers organization.  To be certified, flocks must meet requirements in housing and cage space allowance, beak trimming, molting, transportation and handling.",
@@ -164,11 +164,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3008", "What are certified egg production flocks?", null,
-        poultryFacts));
+        poultryFactsG));
     
     // Clear
-    poultryFacts.clear();
-    poultryFacts
+    List<Fact> poultryFactsH = new LinkedList<Fact>();
+    poultryFactsH
       .add(new Fact(
         "20013",
         "Housing chickens in cages does not abuse them.  The egg producer does not intentionally abuse chickens because the birds will not be healthy and happy and good egg producers.  A certification program is designed to increase cage space and modify other production practices that may be in question.  Research has shown that keeping hens in cages actually may be less stressful since there is less competition and interaction with other more aggressive birds.",
@@ -177,7 +177,7 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3009", "Are chickens in cages being abused?", null,
-        poultryFacts));
+        poultryFactsH));
     
     Guide poultryFaq = new Guide("4002",
         "Poultry FAQ",
@@ -186,11 +186,10 @@ public class GuideDataFactory
     guides.add(poultryFaq);
     
     topics = new LinkedList<Topic>();
-    List<Fact> poultryMeatFacts = new LinkedList<Fact>();
+    List<Fact> poultryMeatFactsI = new LinkedList<Fact>();
 
-    // Clear
-    poultryMeatFacts.clear();
-    poultryMeatFacts
+    // Poultry Meat Facts
+    poultryMeatFactsI
       .add(new Fact(
         "20014",
         "Different muscles in the body of the bird are used at various rates.  Since chickens and turkeys do not fly, the breast muscles (which are used in flight) are not used as much as the leg and thigh muscles and do not require as much oxygen.  The oxygen transport mechanism is myoglobin and is present in dissimilar amounts in the muscles which results in the color contrast.",
@@ -199,11 +198,13 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3010", "Why do chickens and turkeys have light and dark meat?", null,
-        poultryMeatFacts));
+        poultryMeatFactsI));
 
-    // Clear
-    poultryMeatFacts.clear();
-    poultryMeatFacts
+    // 
+    topics = new LinkedList<Topic>();
+    List<Fact> poultryMeatFactsJ = new LinkedList<Fact>();
+    
+    poultryMeatFactsJ
       .add(new Fact(
         "20015",
         "Frozen chickens and turkeys should be thawed in the refrigerator.  This prevents all parts of the bird from getting warm enough to encourage the growth of spoilage bacteria before the entire birds is thawed completely.  Depending on the size of the bird, two or three days may be required to complete the thawing process.  If faster thawing is necessary birds can be immersed in cold water.  Directions on the label concerning thawing should be followed.",
@@ -212,11 +213,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3011", "How should frozen poultry be thawed?", null,
-        poultryMeatFacts));
+        poultryMeatFactsJ));
 
     // Clear
-    poultryMeatFacts.clear();
-    poultryMeatFacts
+    List<Fact> poultryFactsK = new LinkedList<Fact>();
+    poultryFactsK
       .add(new Fact(
         "20016",
         "If the chicken is fresh and is properly cooked (to an end point temperature of at least 165 degrees F.) there should be minimal danger.  The bacteria that may be of concern is Salmonella.   There is a possibility that Salmonella could be present on some raw chickens, but as stated earlier, proper cooking eliminates any potential problems.   In addition to proper cooking, another safeguard that should be remembered when preparing all meat items is to carefully wash hands, utensils, and countertops after preparing the meat to avoid cross-contamination to other foods.",
@@ -225,11 +226,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3012", "Is there any danger from eating poultry?", null,
-        poultryMeatFacts));
+        poultryFactsK));
 
     // Clear
-    poultryMeatFacts.clear();
-    poultryMeatFacts
+    List<Fact> poultryFactsL = new LinkedList<Fact>();
+    poultryFactsL
       .add(new Fact(
         "20017",
         "Salmonella bacteria are spread in fecal material from all kinds of animals.  Animals may also pick up bacteria from the soil or perhaps from contaminated processed feed.  The organisms then live in the intestinal tract of the host and may or may not have an effect on the animal.  As food animals are slaughtered and processed, there are times when some of the bacteria from the intestines have the opportunity to contaminate uncooked meat products.",
@@ -238,7 +239,7 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3013", "Where does Salmonella originate?", null,
-        poultryMeatFacts));
+        poultryFactsL));
 
     
     Guide poultryMeatFaq = new Guide("4003",
@@ -248,11 +249,10 @@ public class GuideDataFactory
     guides.add(poultryMeatFaq);
 
     topics = new LinkedList<Topic>();
-    List<Fact> incubationFacts = new LinkedList<Fact>();
 
     // Clear
-    incubationFacts.clear();
-    incubationFacts
+    List<Fact> incubationFactsA = new LinkedList<Fact>();
+    incubationFactsA
       .add(new Fact(
         "20018",
         "The chicks develop from the true egg, seen as a small white spot (germinal disc) on the yolk.  If the egg is fertile and incubated at the correct temperature, cell division will continue.  The egg white protects the developing embryo and offers some nutrition, however, the yolk is the primary nutrition source.",
@@ -261,11 +261,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3014", "What part of the egg develops into the baby chicken?", null,
-        incubationFacts));
+        incubationFactsA));
 
     // Clear
-    incubationFacts.clear();
-    incubationFacts
+    List<Fact> incubationFactsB = new LinkedList<Fact>();
+    incubationFactsB
       .add(new Fact(
         "20019",
         "No, all eggs have the white spot called the germinal disc. It is almost impossible to determine if an egg is fertile without first incubating it for several hours.",
@@ -274,11 +274,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3015", "Does the small white spot on the egg yolk indicate that the egg is fertile?", null,
-        incubationFacts));
+        incubationFactsB));
 
     // Clear
-    incubationFacts.clear();
-    incubationFacts
+    List<Fact> incubationFactsC = new LinkedList<Fact>();
+    incubationFactsC
       .add(new Fact(
         "20020",
         "A double yolked egg is not likely to hatch.  An embryo may begin to develop from the germinal disc on both egg yolks, but usually there is not enough room for two chicks or the conditions are not adequate for two embryos and the chicks do not hatch.",
@@ -287,7 +287,7 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3016", "Will twin chicks hatch from a double yolked egg?", null,
-        incubationFacts));
+        incubationFactsC));
 
     Guide incubationFaq = new Guide("4004",
         "Incubation FAQ",
@@ -295,12 +295,11 @@ public class GuideDataFactory
         topics);
     guides.add(incubationFaq);    
 
-    topics = new LinkedList<Topic>();
-    List<Fact> eggFacts = new LinkedList<Fact>();    
+    topics = new LinkedList<Topic>();    
     
     // Clear
-    eggFacts.clear();
-    eggFacts
+    List<Fact> eggFactsA = new LinkedList<Fact>();
+    eggFactsA
       .add(new Fact(
         "20021",
         "There is essentially no nutritional difference due to shell color.  White, brown or blue-green eggs from birds being fed similar rations are very similar.  Research has shown that the cholesterol content of eggs is about the same regardless of color and whether or not the egg is fertile.  In simple terms an egg is an egg regardless of the color or whether it is fertile.",
@@ -309,11 +308,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3017", "Is there a nutritional difference in eggs with different colors of shells?", null,
-        eggFacts));
+        eggFactsA));
 
     // Clear
-    eggFacts.clear();
-    eggFacts
+    List<Fact> eggFactsB = new LinkedList<Fact>();
+    eggFactsB
       .add(new Fact(
         "20022",
         "According to research results, moderate egg consumption will not increase a person’s serum cholesterol and the American Heart Association is now reporting  that there is no evidence to suggest that eating eggs will increase the risk of heart disease in healthy individuals.    In fact, scientists now know that eggs provide several much needed nutrients such as lutein and zeaxanthin which may decrease the possibility of macular degeneration.  Eggs are also an excellent source of folic acid and choline.",
@@ -322,12 +321,12 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3018", "Does eating eggs increase my cholesterol?", null,
-        eggFacts));
+        eggFactsB));
 
     
     // Clear
-    eggFacts.clear();
-    eggFacts
+    List<Fact> eggFactsC = new LinkedList<Fact>();
+    eggFactsC
       .add(new Fact(
         "20023",
         "If eggs are properly refrigerated they should remain usable for several weeks.  Most eggs have a 4 week expiration date on the carton.  That means they may be sold up to four weeks after they are placed in the carton and the consumer will still have plenty of time to use them.  Keeping eggs in the carton in the refrigerator will extend the shelf life.  Keeping eggs at a temperature below 40° F, but above freezing and at a high humidity is the ideal way to maximize the shelf life.",
@@ -336,11 +335,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3019", "How long will eggs keep?", null,
-        eggFacts));
+        eggFactsC));
 
     // Clear
-    eggFacts.clear();
-    eggFacts
+    List<Fact> eggFactsD = new LinkedList<Fact>();
+    eggFactsD
       .add(new Fact(
         "20024",
         "To determine if an egg is fertile, incubate it for a few days and then candle it to see if cell division has begun.",
@@ -349,11 +348,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3020", "How can I tell if an egg is fertile?", null,
-        eggFacts));
+        eggFactsD));
 
     // Clear
-    eggFacts.clear();
-    eggFacts
+    List<Fact> eggFactsE = new LinkedList<Fact>();
+    eggFactsE
       .add(new Fact(
         "20025",
         "The recent introduction of in-shell pasteurized eggs now provides an extra margin of safety when using raw or undercooked eggs in foods.  To be absolutely safe, only pasteurized eggs should be used when preparing foods that may be undercooked.   Even clean, sound shelled eggs have the possibility of bacterial contamination and should be fully cooked.",
@@ -362,11 +361,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3021", "Should I eat foods that may contain uncooked eggs?", null,
-        eggFacts));
+        eggFactsE));
 
     // Clear
-    eggFacts.clear();
-    eggFacts
+    List<Fact> eggFactsF = new LinkedList<Fact>();
+    eggFactsF
       .add(new Fact(
         "20026",
         "Eggs can be satisfactorily frozen after mixing the yolk and the albumen.  It may be desirable to freeze the egg mixture in ice trays or muffin tins and then store the frozen eggs in plastic bags.  The frozen eggs can be thawed in the refrigerator and used any where a whole egg is needed.  Three tablespoons of liquid whole egg should be used in place of one large egg.  Egg whites can be frozen satisfactorily and can also be frozen in ice trays or muffin tins.  Yolks on the other hand become very gelatinous when frozen unless they are mixed with salt or sugar.  To help retard the gelation, mix 1/8 teaspoon salt or 1 ½ teaspoons sugar or corn syrup per ¼ cup eggs yolks (4 large yolks).  Freezing in ice trays or muffin tins may also be desirable.  When the egg yolks are used, the recipe should be adjusted to the salt or sugar already in the egg yolks.",
@@ -375,11 +374,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3022", "Can eggs be frozen?", null,
-        eggFacts));
+        eggFactsF));
 
     // Clear
-    eggFacts.clear();
-    eggFacts
+    List<Fact> eggFactsG = new LinkedList<Fact>();
+    eggFactsG
       .add(new Fact(
         "20027",
         "Blood spots are the result of broken capillaries in the reproductive system.  When the capillary ruptures, a drop of blood leaks out and becomes part of the egg.  The presence of a blood spot does not mean the egg is fertile or that an embryo is  beginning to form.  Egg processors attempt to identify and remove all eggs containing blood spots before eggs go into the carton.  Occasionally one is missed, but if the blood spot is small, it can be removed and the egg used.  For large blood spots the egg should be discarded.",
@@ -388,11 +387,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3023", "What causes blood spots in eggs?", null,
-        eggFacts));
+        eggFactsG));
 
     // Clear
-    eggFacts.clear();
-    eggFacts
+    List<Fact> eggFactsH = new LinkedList<Fact>();
+    eggFactsH
       .add(new Fact(
         "20028",
         "The stringy white portion of the egg is called the chalazae.  It is there to anchor the yolk in the center of the egg.  The presence of a prominent chalazae is actually an indication that the egg is fresh because as the egg ages the chalazae becomes less noticeable.",
@@ -401,11 +400,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3024", "What are the stringy white things in eggs?", null,
-        eggFacts));
+        eggFactsH));
 
     // Clear
-    eggFacts.clear();
-    eggFacts
+    List<Fact> eggFactsI = new LinkedList<Fact>();
+    eggFactsI
       .add(new Fact(
         "20029",
         "Eggs that are very fresh are usually more difficult to peal.  As the egg ages the pH changes and the shell is more easily removed.  To improve peelability, start with an egg that is a few days old, hard-cook the egg, then immerse the egg in cold water and peel immediately.",
@@ -414,11 +413,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3025", "Why are some hard-cooked eggs difficult to peel?", null,
-        eggFacts));
+        eggFactsI));
 
     // Clear
-    eggFacts.clear();
-    eggFacts
+    List<Fact> eggFactsJ = new LinkedList<Fact>();
+    eggFactsJ
       .add(new Fact(
         "20030",
         "Most recipes are written for large eggs.  Because of that, better results will be obtained by using large eggs in baked products.  If the end use of the eggs is scrambled, fried, poached, hard cooked or a method where volume is not critical, then the size with the least expensive cost per ounce might be the best choice.",
@@ -427,11 +426,11 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3026", "What size eggs should I purchase?", null,
-        eggFacts));
+        eggFactsJ));
 
     // Clear
-    eggFacts.clear();
-    eggFacts
+    List<Fact> eggFactsK = new LinkedList<Fact>();
+    eggFactsK
       .add(new Fact(
         "20030",
         "Designer eggs are those eggs produced by flocks of chickens which have been fed special diets in an attempt to modify the nutrition of the eggs they produce.  Consumers should be well informed about the differences in these eggs and all other eggs when making purchasing decisions.  Free range eggs are produced by flocks of chickens which are not confined in cages.  The chickens may be raised on the floor of a poultry house or they may be allowed to roam around outside.  Yolks of free range eggs may be darker because of the chicken’s eating foods that contain more carotenoid pigments (green grass, yellow corn, etc.).",
@@ -440,7 +439,7 @@ public class GuideDataFactory
         null, 
         null));
     topics.add(new Topic("3027", "What are designer eggs, free range eggs, etc?", null,
-        eggFacts));
+        eggFactsK));
 
 
     Guide eggFaq = new Guide("4005",

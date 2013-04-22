@@ -49,10 +49,21 @@
             android:name="com.di.boke.pasture.activity.AddPastureActivity"
             android:label="@string/title_activity_add_pasture" >
         </activity>
+
         <!-- Owner -->
         <activity
             android:name="com.di.boke.owner.activity.ViewOwnerDetailsActivity"
             android:label="@string/title_activity_view_owner_details" >
+        </activity>
+
+        <!-- Merchandise -->
+        <activity
+            android:name="com.di.boke.merchandise.activity.ViewMerchandiseViewsActivity"
+            android:label="@string/title_activity_view_merchandise_views" >
+        </activity>
+        <activity
+            android:name="com.di.boke.merchandise.activity.ViewMerchandiseDetailsActivity"
+            android:label="@string/title_activity_view_merchandise_details" >
         </activity>
     </application>
 

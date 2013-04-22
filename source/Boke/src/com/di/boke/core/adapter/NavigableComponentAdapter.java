@@ -2,6 +2,8 @@ package com.di.boke.core.adapter;
 
 import java.util.List;
 
+import com.di.boke.R;
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,8 +12,6 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.di.boke.R;
 
 /**
  * This class is used to convert a list of <code>Navigable</code> object

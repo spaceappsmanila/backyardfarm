@@ -10,5 +10,7 @@
     <string name="title_activity_view_pasture_views">Pastures</string>
     <string name="title_activity_add_pasture">Add Pasture</string>
     <string name="title_activity_view_owner_details">Owner</string>
+    <string name="title_activity_view_merchandise_views">Merchandise</string>
+    <string name="title_activity_view_merchandise_details">ViewMerchandiseDetailsActivity</string>
 
 </resources>
