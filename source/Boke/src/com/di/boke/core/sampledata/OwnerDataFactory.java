@@ -1,6 +1,7 @@
 package com.di.boke.core.sampledata;
 
-import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 
 import com.di.boke.core.model.Contact;
 import com.di.boke.core.model.ContactType;
@@ -31,15 +32,26 @@ public class OwnerDataFactory
   private static Owner initializeOwner()
   {
     OwnerInfo ownerInfo = new OwnerInfo();
-    ownerInfo.setLastName("Innovations");
-    ownerInfo.setFirstName("Dungeon");
+    ownerInfo.setLastName("Dungeon");
+    ownerInfo.setFirstName("Innovations");
     
     ContactType mobileType = new ContactType();
-    mobileType.setName("Mobile");
+    mobileType.setName("Wireless");
+    
+    ContactType wired = new ContactType();
+    wired.setName("Wired");
     
     Contact mobileContact = new Contact();
     mobileContact.setType(mobileType);
-    mobileContact.setValue("999999999999");
+    mobileContact.setValue("+63-999-999-999");
+    
+    Contact mobileContact2 = new Contact();
+    mobileContact2.setType(mobileType);
+    mobileContact2.setValue("+63-999-999-888");
+    
+    Contact wiredContact = new Contact();
+    wiredContact.setType(wired);
+    wiredContact.setValue("63-400-0000");
     
     Pasture pasture = PastureDataFactory.getPastureList().get(0);
     
@@ -47,7 +59,16 @@ public class OwnerDataFactory
     singleCoop.setArea(300.00);
     singleCoop.setMaxOccupant(20);
     
-    Owner owner = new Owner(null, ownerInfo, Collections.singletonList(mobileContact), pasture, null);
+    List<Contact> contactList = new LinkedList<Contact>();
+    contactList.add(mobileContact);
+    contactList.add(mobileContact2);
+    contactList.add(wiredContact);
+    
+    Owner owner = new Owner(null
+                            , ownerInfo
+                            , contactList
+                            , pasture
+                            , null);
     
     return owner;
   }

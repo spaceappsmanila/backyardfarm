@@ -78,6 +78,14 @@
       android:text="@string/owner_view_owner_details_contacts_header_label"
       style="@style/sectionHeader_textView_style"
       />
+    <!-- Contacts -->
+    <LinearLayout
+      android:id="@+id/owner_view_owner_details_contacts_section"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+    </LinearLayout>
     
     <!-- Divider -->
     <View

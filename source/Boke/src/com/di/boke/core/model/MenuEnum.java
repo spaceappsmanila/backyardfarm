@@ -5,6 +5,8 @@ import java.util.Iterator;
 import java.util.List;
 
 import com.di.boke.guide.activity.ViewGuideViewsActivity;
+import com.di.boke.merchandise.activity.ViewMerchandiseViewsActivity;
+import com.di.boke.owner.activity.ViewOwnerDetailsActivity;
 import com.di.boke.pasture.activity.ViewPastureViewsActivity;
 
 import android.app.Activity;
@@ -108,7 +110,17 @@ public
     , null
     , null
     , null
+    , ViewMerchandiseViewsActivity.class
+  )
+  , OWNER
+  (
+    1009L
+    , 1009
+    , "Owner"
     , null
+    , null
+    , null
+    , ViewOwnerDetailsActivity.class
   )
   ;
   
