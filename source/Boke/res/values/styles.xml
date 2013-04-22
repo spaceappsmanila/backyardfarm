@@ -60,7 +60,7 @@
       <item name="android:paddingRight">@dimen/base_textView_paddingRight</item>
       <item name="android:paddingBottom">@dimen/base_textView_paddingBottom</item>
       <item name="android:paddingLeft">@dimen/base_textView_paddingLeft</item>
-      <item name="android:textSize">15sp</item>
+      <item name="android:textSize">17sp</item>
     </style>
     
     <!-- FieldSet - Value - EditText -->
@@ -69,7 +69,7 @@
       <item name="android:paddingRight">@dimen/base_editText_paddingRight</item>
       <item name="android:paddingBottom">@dimen/base_editText_paddingBottom</item>
       <item name="android:paddingLeft">@dimen/base_editText_paddingLeft</item>
-      <item name="android:textSize">15sp</item>
+      <item name="android:textSize">17sp</item>
     </style>
     
     <!-- FieldSet - Container - Layout -->
